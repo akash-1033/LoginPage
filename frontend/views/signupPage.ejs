@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signupStyle.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="signup-box">
+        <h2>Create an Account</h2>
+        <% if (data === 'UserNotFound') { %>
+          <div class="err">
+            <p>User Not Found. Please Signup.</p>
+          </div>
+        <% } %> 
+        <form action="/signup" method="post">
+          <div class="input-group">
+            <input type="text" name="username" required />
+            <label>Full Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" name="id" required />
+            <label>User I'd</label>
+          </div>
+          <div class="input-group">
+            <input type="password" name="password" required />
+            <label>Password</label>
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <div class="login-option">
+            <p>Already have an account? <a href="/login">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
