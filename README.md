@@ -28,3 +28,14 @@ This repository contains a simple login and signup page built using **Node.js**,
     - HTML and CSS provide structure and styling for the login, signup, and home pages.
     - JavaScript adds interactivity and handles client-side logic.
     - EJS dynamically renders server-side data into HTML templates.
+
+![Screenshot 2024-09-17 103138](https://github.com/user-attachments/assets/f2ea3cf0-ccc4-4b8a-870f-3448c7cbb5f9)
+
+![Screenshot 2024-09-17 103211](https://github.com/user-attachments/assets/6d2058d9-8681-4fe3-acb4-5ddef1b125e0)
+
+![Screenshot 2024-09-17 103147](https://github.com/user-attachments/assets/33bbf9fa-2db8-43e3-8cb7-4abec6a07664)
+
+
+## Creators
+
+**Abhinav & Akash**
